@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-purple-500;
+}
+
+.capitalize-first::first-letter {
+  text-transform: uppercase;
+}
